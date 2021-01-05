@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body class="bg-teal bg-gradient-to-tr from-blue-700 to-teal">
+    <div class="main-container text-center mx-8 md:mx-12">
+      <header class="bg-white">
+        <nav class="flex justify-center md:flex md:justify-end md:mr-2">
+          <ul class="flex items-row py-3 px-2 text-sm">
+            <li class="mr-1">
+              <a
+                href="#"
+                class="anchor-tag-style hover:bg-gray-100"
+                >Home</a
+              >
+            </li>
+            <li class="mr-1">
+              <a
+                href="#"
+                class="anchor-tag-style hover:bg-gray-100"
+                >Contribute</a
+              >
+            </li>
+            <li class="mr-1">
+              <a
+                href="#"
+                class="anchor-tag-style hover:bg-gray-100"
+                >Destinations</a
+              >
+            </li>
+            <li class="mr-1">
+              <a
+                href="#"
+                class="anchor-tag-style hover:bg-gray-100"
+                >Blog</a
+              >
+            </li>
+            <li class="mr-1">
+              <a href="#" class="inline-block text-white bg-teal rounded-sm py-3 px-2 mx-0"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="hero-container m-6">
+        <div class="mt-16 mb-2 text-center">
+          <h1 class="text-4xl text-white md:text-5xl md:text-left">Find amazing things to do.</h1>
+          <h1 class=" text-4xl text-white md:text-5xl md:text-left">Anytime, Anywhere.</h1>
+        </div>
+
+        <form class="flex flex-col items-center md:flex-row mb-24">
+          <input
+            type="text"
+            placeholder="Ex. Amsterdam, New York, Paris..."
+            class="w-4/5 input-style outline-none rounded-l-sm"
+          />
+          <input type="date" class="input-style w-4/5 outline-none" />
+          <button
+            type="submit"
+            class="bg-myOrange mb-2 px-6 py-2 md:py-3 border border-myOrange rounded-r-sm text-white outline-none hover:bg-hoverOrange"
+          >
+            Search
+          </button>
+        </form>
+
+        <div
+          class="px-8 py-8 text-center flex align-center flex-col border rounded-lg bg-gradient-to-tr from-white to-gray-100 lg:px-12  lg:flex lg:flex-row lg:items-center lg:text-left"
+        >
+          <div class="tours lg:items-start">
+            <h3 class="tours-h3">
+              Grand Canyon All-American Helicopter Tour
+            </h3>
+            <p class="text-ashblack font-bold">from $396</p>
+            <div
+              class="tours-expiry lg:mt-8"
+            >
+              <p class="text-center">Free Cancellation</p>
+            </div>
+          </div>
+
+          <div class="tours lg:items-start">
+            <h3 class="tours-h3">
+                Skip the Line: NYC One World Observatory Ticket
+            </h3>
+            <p class="text-ashblack font-bold">from $396</p>
+            <div
+              class="tours-expiry lg:mt-8"
+            >
+              <p class="text-center">3 hours</p>
+            </div>
+          </div>
+
+          <div class="tours lg:items-start">
+            <h3 class="tours-h3">
+              Harry Potter Tour of Warner Bros. Studio in London
+            </h3>
+            <p class="text-ashblack font-bold">from $396</p>
+            <div
+              class="tours-expiry lg:mt-8"
+            >
+              <p class="text-center">Free Cancellation</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

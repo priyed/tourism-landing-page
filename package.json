@@ -1,0 +1,16 @@
+{
+  "name": "tourist_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwind build src/tailwind.css -o public/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar-cli": "^2.1.0",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^1.7.6"
+  }
+}

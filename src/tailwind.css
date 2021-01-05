@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tours {
+    @apply mb-8;  @apply flex; @apply items-center; @apply flex-col;
+     @apply px-3;
+}
+
+.tours-h3 {
+    @apply text-shineblack; @apply text-lg; @apply font-bold;
+}
+
+.tours-expiry {
+    @apply mt-3; @apply text-ashblack; @apply font-bold; @apply bg-gray-300; @apply px-8; @apply py-1; @apply border-gray-300; @apply rounded-full; @apply w-56;
+}
+
+.input-style {
+    @apply p-3; @apply mb-2; @apply h-12; @apply text-gray-500;
+}
+
+.anchor-tag-style {
+    @apply inline-block; @apply rounded-sm; @apply py-3; @apply px-2;
+}
